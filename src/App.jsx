@@ -2,10 +2,11 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import AboutUs from "./components/AboutUs";
 import ProductList from "./components/ProductList";
 import CartItem from "./components/CartItem";
+import Header from "./components/Header";
 
 
 function App() {
-  
+
   return (
     <Router>
       <Routes>
